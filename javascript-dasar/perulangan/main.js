@@ -22,3 +22,19 @@ do {
     console.log(`nilai ${j}`);
     j++;
 } while (j <= 10);
+
+// perulangan for-of
+for (let mhs of dataMhs) {
+    console.log(`data mahasiswa ${mhs}`);
+}
+
+// perulangan for-in
+for (let index in dataMhs) {
+    console.log(`data mahasiswa index ${index} ${dataMhs[index]}`); 
+}
+
+// perulangan forEach
+dataMhs.forEach((mhs, index) => {
+    console.log(`data mahasiswa index ${index} ${mhs}`);
+}); 
+
